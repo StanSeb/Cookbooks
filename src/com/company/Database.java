@@ -38,12 +38,22 @@ public class Database {
             stmt.setString(1,userInput);
             resultSet = stmt.executeQuery();
 
-                while (resultSet.next()) {
+            boolean recipeFound = false;
+
+            while (resultSet.next()) {
+                if(userInput.equals(resultSet.getString(1))) {
                     String row = ("\nRecipe name: " + resultSet.getString(1) + "\nCook book: "
                             + resultSet.getString(2) + "\n-----------------------------");
+                    recipeFound = true;
+
                     System.out.println(row);
                 }
-            
+            }
+
+            if(!recipeFound){
+                System.out.println("That recipe can't be found!");
+            }
+
 
         }catch(Exception e){e.printStackTrace();}
 

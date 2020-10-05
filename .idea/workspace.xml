@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04dd369e-5f2e-4a3b-8d39-4bdad7c21134" name="Default Changelist" comment="" />
+    <list default="true" id="04dd369e-5f2e-4a3b-8d39-4bdad7c21134" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cookbooks/com/company/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cookbooks/com/company/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Database.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +32,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -59,30 +63,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="666" y="281" key="FileChooserDialogImpl" timestamp="1601898584924">
+    <state x="712" y="364" key="#Notifications" timestamp="1601898860157">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="666" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601898584924" />
-    <state x="835" y="438" key="Github.ShareDialog" timestamp="1601898294803">
+    <state x="712" y="364" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1601898860157" />
+    <state x="666" y="281" key="FileChooserDialogImpl" timestamp="1601898659495">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="835" y="438" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601898294803" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1601673358826">
+    <state x="666" y="281" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601898659495" />
+    <state x="835" y="438" key="Github.ShareDialog" timestamp="1601898824411">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601673358826" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1601673358826">
+    <state x="835" y="438" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601898824411" />
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1601900454379">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601673358826" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1601673358826">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601900454379" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1601900454378">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601673358826" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1601673358826">
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601900454378" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1601900454378">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601673358826" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601900454378" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1601900454379">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601900454379" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1601673358827">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -99,10 +107,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601673358827" />
-    <state x="440" y="114" key="SettingsEditor" timestamp="1601898618886">
+    <state x="440" y="114" key="SettingsEditor" timestamp="1601899232723">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="440" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601898618886" />
+    <state x="440" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601899232723" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1601667668018">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
