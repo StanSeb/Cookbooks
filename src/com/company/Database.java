@@ -22,6 +22,16 @@ public class Database {
 
     }
 
+    private void writeNewCookBook(){
+
+
+        System.out.println("What is the name of you Cook book?");
+        String skipper = scan.nextLine();
+        String inputName = scan.nextLine();
+
+        System.out.printf("Your first Cook Book is named: %s", inputName);
+    }
+
     private void showAllCookBooks(){
 
         System.out.println("Write the name of one of these recipes.");
@@ -108,7 +118,8 @@ public class Database {
         System.out.println("1: Show all recipes." +
                 "\n2: List from a specific cook book." +
                 "\n3: List cook books having a specific recipe." +
-                "\n4: Exit program.");
+                "\n4: Write your own Cook Book." +
+                "\n5: Exit program.");
 
         int userInput = scan.nextInt();
 
@@ -124,6 +135,8 @@ public class Database {
                 showAllCookBooks();
                 break;
             case 4:
+                writeNewCookBook();
+            case 5:
                 System.exit(0);
 
         }
